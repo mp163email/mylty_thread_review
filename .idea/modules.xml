@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../book_high_concurrent/book_high_concurrent.iml" filepath="$PROJECT_DIR$/../book_high_concurrent/book_high_concurrent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../book_java_perform_optimize/book_java_perform_optimize.iml" filepath="$PROJECT_DIR$/../book_java_perform_optimize/book_java_perform_optimize.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../book_multy_thread/book_multy_thread.iml" filepath="$PROJECT_DIR$/../book_multy_thread/book_multy_thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multythread_review.iml" filepath="$PROJECT_DIR$/multythread_review.iml" />
+    </modules>
+  </component>
+</project>
