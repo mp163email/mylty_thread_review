@@ -7,7 +7,6 @@ import java.util.concurrent.TimeUnit;
  * 1.wait notify notifyAll 都要加上synchronized
  * 2.wait 要加异常处理
  * 3.notify 释放lock对象上第一个被wait的线程
- * 4.notifyAll 按照wait的时间顺序倒叙释放
  * Created by miaopeng on 2018 4-20 020
  */
 public class Main {
