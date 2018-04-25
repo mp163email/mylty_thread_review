@@ -35,10 +35,15 @@ public class Main {
         int nThread = 4;
         ExecutorService executorService = Executors.newFixedThreadPool(nThread);
         Task task = new Task();
-        int sumTime = 0;
+
+        Future[] futureArray = new Future[nThread];
         for (int i = 0; i < nThread; i++) {
-            Future<Long> future = executorService.submit(task);
-            sumTime += future.get();
+            futureArray[i] = executorService.submit(task);
+        }
+
+        long sumTime = 0;
+        for (Future future : futureArray) {
+            sumTime += (long)future.get();
         }
         System.out.println("总耗时=" + sumTime);
         executorService.shutdown();

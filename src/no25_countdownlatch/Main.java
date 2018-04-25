@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * CountDownLatch的使用， 先规定一个数， 然后一直往下减， 减到0， 唤醒后面的执行
  * 模拟火箭点火操作： 火箭点火前先进行10项检查，检查完了以后，才开始点火
+ * 相关方法：countDown(), await()
  * Auth: miaopeng
  * Date: 2018-04-24 21:12:57
  */
@@ -64,7 +65,5 @@ public class Main {
         new CheckThread().start();//检查线程需同时做10项检查，每个检查耗时2秒
         new FireThread().start();//点火线程会等到检查线程执行完了以后再执行
     }
-
-
 
 }
