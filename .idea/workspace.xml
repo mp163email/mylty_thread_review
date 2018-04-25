@@ -172,12 +172,6 @@
               <item name="multythread_review" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="multythread_review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multythread_review" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="no27_forkjoin" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -479,12 +473,12 @@
       <workItem from="1524476033644" duration="972000" />
       <workItem from="1524477140430" duration="1863000" />
       <workItem from="1524533992945" duration="27437000" />
-      <workItem from="1524621996532" duration="13752000" />
+      <workItem from="1524621996532" duration="14035000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97885000" />
+    <option name="totallyTimeSpent" value="98168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
